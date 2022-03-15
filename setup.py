@@ -10,7 +10,7 @@ setup(
     author_email='m.t.usman@hotmail.com',
     description='A python client for the Gemini API and Websocket',
     python_requires='>=3',
-    install_requires=['requests', 'pytest'],
+    install_requires=['requests', 'pytest', 'websocket', 'websocket-client'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
